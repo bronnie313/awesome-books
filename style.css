@@ -29,15 +29,17 @@ nav {
 }
 
 #contact {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
+    margin-top: 5em;
 }
 
 .add-book-list {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
+    margin-top: 5em;
 }
 
 .books-name {
@@ -55,4 +57,17 @@ nav {
     border: 1px solid;
     margin: 5px 3em;
     align-items: center;
+}
+
+#list {
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+.contact {
+    display: none;
+}
+
+.btn {
+    margin-left: 70%;
 }
