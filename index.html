@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome books</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+</head>
+<body>
+    <nav class="header">
+        <p class="books-name">Awesome Books</p>
+        <ul class="header-list">
+            <li><a id="list-nav" class="list-item" href="">List</a></li>
+            <div class="vl"></div>
+            <li><a id="add-book-list-nav" class="list-item" href="">Add new</a></li>
+            <div class="vl"></div>
+            <li><a id="contact-nav" class="list-item" href="">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="list" class="list">
+            <h2 class="text-center mb-5">All Awesome Books</h2>
+            <ul id="booksList"></ul>
+        </section>
+        <section id="add-book-list" class="add-book-list">
+            <h2>Add a book</h2>
+            <form id="bookForm">
+                <input type="text" id="title" name="title" placeholder="title" required><br><br>
+                <input type="text" id="author" name="author" placeholder="author" required><br><br>
+                <button type="submit" class="btn btn-outline-dark">Add</button>
+            </form>
+        </section>
+        <section id="contact" class="contact mt-5 ">
+            <h2 class="">Contact Information</h2>
+            <div class="para">
+                <p>Do you have any questions or you just want to say "Hello"?</p>
+                <p>You can reach out to us!</p>
+            </div>
+            <ul>
+            <li>Our email mail@gmail.com</li>
+            <li>Our phone umber 010233223232323</li>
+            <li>Our address Streetname 22,795695 City, Country</li>
+            </ul>
+        </section>
+    </main>
+    <footer id="footer" class="container-fluid">
+        <div class="border border-dark">
+          <span class="text-muted">Copyright</span>
+        </div>
+    </footer>
+    
+    <script src="index.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
